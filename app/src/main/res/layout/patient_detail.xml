@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:id="@+id/ward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/bed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:inputType="number"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/dews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/hr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:inputType="number"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/rr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:inputType="number"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/o2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="--"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_weight="3"/>
+
+</LinearLayout>
