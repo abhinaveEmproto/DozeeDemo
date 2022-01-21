@@ -10,9 +10,11 @@ import com.example.tvdemoapp.R
 class OtpActivity : FragmentActivity() {
 
     lateinit var submit_btn:Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_otp)
+
 
         submit_btn= findViewById(R.id.submit_btn)
 
@@ -22,4 +24,6 @@ class OtpActivity : FragmentActivity() {
             finish()
         })
     }
+
+
 }
